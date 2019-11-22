@@ -9,3 +9,5 @@ def process_image_clusters(input_image,num_clusters):
     clt = KMeans(n_clusters = num_clusters)
     clt.fit(image)
     return clt.cluster_centers_
+
+#Creditted to Adreian@pyimagesearch
